@@ -1,0 +1,34 @@
+.container {
+  padding: 10px 150px 10px 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: fit-content;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 20px;
+  font-weight: 500;
+
+  margin-top: 5px;
+}
+
+.button {
+  width: fit-content;
+}
